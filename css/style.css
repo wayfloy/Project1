@@ -112,6 +112,7 @@ header .head-structure .head-structure__hr {
 }
 
 main .main-one {
+  background-color: rgb(228, 228, 228);
   height: 100vh;
   width: 100%;
   display: -webkit-box;
@@ -130,9 +131,11 @@ main .main-one .main-one__text {
   font-size: 30px;
   letter-spacing: 2px;
   color: rgb(49, 49, 49);
+  font-weight: 500;
 }
 main .main-one .main-one__hr {
   margin-top: 10px;
+  margin-bottom: 30px;
   width: 90px;
   height: 5px;
   color: rgb(49, 49, 49);
@@ -178,9 +181,131 @@ main .main-one .main-one__mostructure .mostructure__card .card__hr {
   border-width: 0px;
 }
 main .main-one .main-one__mostructure .mostructure__card .card__textarticles {
+  color: rgb(49, 49, 49);
   text-align: center;
   font-size: 25px;
-  width: 375px;
+  width: 330px;
+  font-family: "Capriola", sans-serif;
+  line-height: 1.6;
+}
+
+.main-two {
+  background-color: white;
+  height: 800px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-two .main-two__mtstructure {
+  height: 50%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-two .main-two__mtstructure .mtstructure__textabout {
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: rgb(49, 49, 49);
+  font-weight: 500;
+}
+.main-two .main-two__mtstructure .mtstructure__hr {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 45px;
+  height: 5px;
+  color: rgb(49, 49, 49);
+  background-color: rgb(49, 49, 49);
+  border-width: 0px;
+}
+.main-two .main-two__mtstructure .mtstructure__textfull {
+  text-align: justify;
+  width: 70%;
+  height: 600px;
+  font-size: 25px;
+  line-height: 1.6;
+  color: rgb(49, 49, 49);
+}
+
+.main-three {
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main-three .main-three__text1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgb(49, 49, 49);
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+.main-three .main-three__text2 {
+  font-size: 23px;
+  color: rgb(49, 49, 49);
+  font-family: "Capriola", sans-serif;
+  padding-bottom: 20px;
+}
+.main-three .main-three__email {
+  width: 30%;
+  height: 60px;
+  background-color: rgb(243, 243, 243);
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  color: rgb(49, 49, 49);
+  font-size: 22px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.main-three .main-three__btn {
+  color: rgb(49, 49, 49);
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  border-color: rgb(49, 49, 49);
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgb(228, 228, 228);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.main-three .main-three__btn:hover {
+  background-color: rgb(49, 49, 49);
+  color: rgb(228, 228, 228);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 * {
